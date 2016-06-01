@@ -68,11 +68,9 @@ Parameters:
 - [translation domain] : Project / domain translation name for WP theme or plugin
 - [path_type_name]     : Set whether a translation is applied to WP "themes" or "plugins" from WordPress path (wp-content/[path_type_name]/)
 
-**Create all files based on array elements':**
+**Create all files based on array elements:**
 
-- Setup array as follows in line 101:
-
-`var translates = [
+- Setup array as follows in line 101: `var translates = [
 		{ src: "themes",   domain: "my_theme_folder_1" },
 		{ src: "themes",   domain: "my_theme_name_2" },
 		{ src: "plugins",  domain: "my_plugin_name_1" },
