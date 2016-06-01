@@ -8,7 +8,7 @@ Wordpress uses the .po (portable object) and .pot (portable object template) ext
 
 **PO files**
 
-PO files are the files which contain the actual translations. Each language will have its own PO file, for example, for Brazilian Portuguese there would be a pt-BR.po file, for german there would be a de.po, for American English there might be en-US.po. You can even use po files to customize the displayed text without changing the code, by for example, creating an adapted file such as en-my_company.po.
+PO files are the files which contain the actual translations. Each language will have its own PO file, for example, for Brazilian Portuguese there would be a pt-BR.po file, for Venezuelan Spanish would be es-VE, for german there would be a de.po, for American English there might be en-US.po and so on. You can even use po files to customize the displayed text without changing the code, by for example, creating an adapted file such as en-my_company.po.
 
 The core of each PO file is very simple; it is made of simply pairs of the source text - that which is found in the code - and target text, the text which is wanted in the translation. For example, in the French PO file you might have a translation of a string as follows:
 
