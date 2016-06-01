@@ -4,7 +4,9 @@ Task runner written in Javascript GULP for creating POT files (Translation Templ
 
 Wordpress uses the .po (portable object) and .pot (portable object template) extensions for the translation files. These use the GNU Gettext format. The basic difference between these file formats is that .pot files are simply templates which contain no translations while .po files do.
 
-##PO files
+##The concept
+
+###PO files
 
 PO files are the files which contain the actual translations. Each language will have its own PO file, for example, for Brazilian Portuguese there would be a pt-BR.po file, for german there would be a de.po, for American English there might be en-US.po. You can even use po files to customize the displayed text without changing the code, by for example, creating an adapted file such as en-my_company.po.
 
@@ -17,7 +19,7 @@ The msgid contains the text actually in the code, and the msgstr contains the te
 
 PO files are simply text files and can thus be edited by any text editor, but there are also many tools available to make editing them easier.
 
-##POT files
+###POT files
 
 POT files are basically the template files for PO files (Warning: Microsoft also uses POT as the extension for PowerPoint template files, but these are not the same). They will have all the translation strings (the msgstr parts) left empty, for example:
 
