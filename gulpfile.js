@@ -96,7 +96,7 @@ function createPotFile(domain, src){
 
 gulp.task('translate-all', function() {
   
-	gutil.log('Iniciando criação de arquivos POT de tema atual e plugins da ativo!');
+	gutil.log('Creating POT file creation for installed WP Themes and plugins!');
 
 	var translates = [
 		{ src: "themes",   domain: "my_theme_folder_1" },
@@ -124,7 +124,7 @@ gulp.task('translate', function() {
   
 	if(argv.domain !== undefined && (argv.src.toLowerCase() === 'plugins'  || argv.src.toLowerCase() === 'themes' ) ) {
 		
-		gutil.log('Creating POT files creation for installed WP Themes and plugins!');
+		gutil.log('Creating POT file creation for installed WP Themes and plugins!');
 
 		return createPotFile(argv.domain, argv.src);
 		
