@@ -1,0 +1,36 @@
+{
+  "name": "portal2016",
+  "version": "1.0.0",
+  "description": "Deploy stage",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "file-exists": "^1.0.0",
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "file-exists": "^1.0.0",
+    "gulp-angular-gettext": "^2.1.0",
+    "gulp-eol": "^0.1.2",
+    "gulp-po-json": "0.0.4",
+    "gulp-sort": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "gulp-wp-pot": "^1.2.2",
+    "i18next-scanner": "^1.2.1",
+    "jsdoc": "git+https://github.com/jsdoc3/jsdoc.git",
+    "mkdirp": "^0.5.1",
+    "path-exists": "^3.0.0",
+    "recursive-readdir": "^2.0.0",
+    "through2-map": "^2.0.0",
+    "yargs": "^4.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/dev-esferabr/portais-ativo-2016.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/dev-esferabr/portais-ativo-2016#readme"
+}
