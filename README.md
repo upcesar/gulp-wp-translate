@@ -31,7 +31,7 @@ The Protuguese PO file (pt-BR.po) is then simply a copy of the POT file but with
 
 ## Instalation
 
-- Download and install Node Package Manager (NPM). (https://nodejs.org/ "Click here for download and install according to your OS")
+- Download and install Node Package Manager (NPM). Here is the link for download and install according to your OS: https://nodejs.org/ 
 - Open terminal windows.
 - Goto WP root project folder. Example: `cd /folder/my_wp_site`
 - Clone the repo using git command: `git clone git@github.com:upcesar/gulp-wp-translate.git ./` for putting files into WP root project.
