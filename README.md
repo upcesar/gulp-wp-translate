@@ -39,7 +39,7 @@ The Protuguese PO file (pt-BR.po) is then simply a copy of the POT file but with
 
 ## Use
 
-**Create a single file':**
+**Create a single file:**
 
 Execute `gulp translate --domain=[translation domain] --scr=[path_type_name]`
 
