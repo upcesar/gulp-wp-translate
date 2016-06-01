@@ -21,8 +21,8 @@ PO files are simply text files and can thus be edited by any text editor, but th
 
 POT files are basically the template files for PO files (Warning: Microsoft also uses POT as the extension for PowerPoint template files, but these are not the same). They will have all the translation strings (the msgstr parts) left empty, for example:
 
-msgid "Hello world"\n
-msgstr ""
+msgid "Hello world"<br />
+msgstr ""<br />
 
 The Protuguese PO file (pt-BR.po) is then simply a copy of the POT file but with the translations filled in. 
 
