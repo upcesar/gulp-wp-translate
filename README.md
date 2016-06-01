@@ -1,10 +1,30 @@
 # GULP WP Translate
 
-Task runner written in Javascript GULP for creating POT files (Translation Template Files) which are used in WP Themes and Plugins.
+Task runner written in Javascript GULP for building POT files (Translation Template Files), which are used in WP Themes and Plugins.
 
-Wordpress uses the .po (portable object) and .pot (portable object template) extensions for the translation files. These use the GNU Gettext format. The basic difference between these file formats is that .pot files are simply templates which contain no translations while .po files do.
+The task reads PHP files recursively in WP Themes / Plugins folder and subfolder, catching the following functions within each file:
+
+- translate()
+- __()
+- _e()
+- _n()
+- _x()
+- _ex()
+- _nx()
+- esc_attr__()
+- esc_attr_e()
+- esc_attr_x()
+- esc_html__()
+- esc_html_e()
+- esc_html_x()
+- _n_noop()
+- _nx_noop()
+- translate_nooped_plural()
+
 
 ##The concept
+
+Wordpress uses the .po (portable object) and .pot (portable object template) extensions for the translation files. These use the GNU Gettext format. The basic difference between these file formats is that .pot files are simply templates which contain no translations while .po files do.
 
 **PO files**
 
@@ -60,3 +80,4 @@ Parameters:
   	];`
 
 - Execute `gulp translate-all`
+
