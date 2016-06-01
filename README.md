@@ -2,7 +2,7 @@
 
 Task runner written in Javascript GULP for building POT files (Translation Template Files), which are used in WP Themes and Plugins.
 
-The task reads PHP files recursively in WP Themes / Plugins folder and subfolder, catching the following functions within each file:
+The task reads PHP files recursively in WP Themes / Plugins folder and subfolder, finding the following functions within each file and finally extract the first "string" parameter for creating POT file:
 
 - translate()
 - __()
