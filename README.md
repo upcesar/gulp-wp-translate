@@ -10,8 +10,8 @@ PO files are the files which contain the actual translations. Each language will
 
 The core of each PO file is very simple; it is made of simply pairs of the source text - that which is found in the code - and target text, the text which is wanted in the translation. For example, in the French PO file you might have a translation of a string as follows:
 
-`msgid "Hello world"`
-`msgstr "Olá mundo"`
+- `msgid "Hello world"`
+- `msgstr "Olá mundo"`
 
 The msgid contains the text actually in the code, and the msgstr contains the text into which it is translated. If there is no translation given in the msgstr, then the default msgid string will be displayed.
 
@@ -21,8 +21,8 @@ PO files are simply text files and can thus be edited by any text editor, but th
 
 POT files are basically the template files for PO files (Warning: Microsoft also uses POT as the extension for PowerPoint template files, but these are not the same). They will have all the translation strings (the msgstr parts) left empty, for example:
 
-msgid "Hello world"
-msgstr ""
+- `msgid "Hello world"`
+- `msgstr ""`
 
 The Protuguese PO file (pt-BR.po) is then simply a copy of the POT file but with the translations filled in. 
 
