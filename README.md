@@ -10,8 +10,8 @@ PO files are the files which contain the actual translations. Each language will
 
 The core of each PO file is very simple; it is made of simply pairs of the source text - that which is found in the code - and target text, the text which is wanted in the translation. For example, in the French PO file you might have a translation of a string as follows:
 
-msgid "Hello world"
-msgstr "Olá mundo"
+`msgid "Hello world"`
+`msgstr "Olá mundo"`
 
 The msgid contains the text actually in the code, and the msgstr contains the text into which it is translated. If there is no translation given in the msgstr, then the default msgid string will be displayed.
 
