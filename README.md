@@ -22,7 +22,7 @@ The task reads PHP files recursively in WP Themes / Plugins folder and subfolder
 - translate_nooped_plural()
 
 
-##The concept
+## The concept
 
 Wordpress uses the .po (portable object) and .pot (portable object template) extensions for the translation files. These use the GNU Gettext format. The basic difference between these file formats is that .pot files are simply templates which contain no translations while .po files do.
 
